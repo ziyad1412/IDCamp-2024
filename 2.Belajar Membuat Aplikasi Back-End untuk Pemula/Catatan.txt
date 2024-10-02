@@ -1,0 +1,42 @@
+# Pengenalan
+Front-End merupakan bagian dari aplikasi yang terlihat dan digunakan langsung oleh pengguna (end-user).
+Back-End merupakan bagian dari aplikasi yang bertanggung jawab untuk menyediakan kebutuhan yang tak terlihat oleh pengguna 
+Server merupakan sebuah sistem yang dapat menyediakan sumber daya berupa data, layanan, atau program untuk disajikan ke komputer lain
+Web Server : Server yang dapat menjalankan program dan dapat diakses melalui internet atau intranet. 
+Web Service : Program yang dijalankan di web server agar kebutuhan bisnis terpenuhi.
+REST : salah satu gaya arsitektur yang dapat diadaptasi ketika membangun web service. 
+API : antarmuka yang menjadi perantara antara sistem aplikasi yang berbeda. 
+GET : mendapatkan data
+POST : mengirimkan data baru
+PUT : memperbarui data yang ada
+DELETE : menghapus data
+
+# Dasar Node.js
+Method Request : 
+Path Parameter : url/heelo/{username}
+Query Parameter : url?name=ziyad&age=23
+Payload/Body Req: Ubah json jadi req
+
+# Project Notes
+
+# HTTP : Protokol untuk transaksi data web
+HTTP Verb : GET, POST, PUT
+Request Path : google.com/resources
+StatusLine : 200, 400
+Request/Response Header : Authorization, Content-Type
+Request/Response Body : {id:123}
+
+# REST : Gaya arsitek untuk bangun web service
+Menggunakan JSON
+Menggunakan HTTP Verb
+Menggunakan HTTP Status
+Desain URL (/articles, /articles/:id)
+API : Tools untuk menjembatani aplikasi agar dapat saling berkomunikasi
+RESTful API : API yang menerapkan arsitek REST
+
+# Amazon EC2
+Definisi : Layanan komputer server online
+Masuk SSH : ssh -i "notes-api-webserver.pem" ubuntu@ec2-18-143-75-183.ap-southeast-1.compute.amazonaws.com
+PW:Shinichikudo.1412
+
+
